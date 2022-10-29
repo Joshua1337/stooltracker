@@ -8,6 +8,7 @@ COPY models ./models
 COPY config ./config
 COPY migrations ./migrations
 COPY .env .
+
 WORKDIR /app
 
 FROM config AS run
